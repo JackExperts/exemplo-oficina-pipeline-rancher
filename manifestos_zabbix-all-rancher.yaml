@@ -152,4 +152,4 @@ spec:
           - name: ZW_enabled
             value: "false"
           - name: SNMPTRAP_enabled
-            value: "true"
+            value: "false"
