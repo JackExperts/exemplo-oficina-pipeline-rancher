@@ -1,0 +1,11 @@
+stages:
+- name: DEPLOY
+  steps:
+  - applyYamlConfig:
+      path: ./manifestos_zabbix-all-rancher.yaml
+- name: INGRESS
+  steps:
+  - applyYamlConfig:
+      path: ./manifestos_zabbix-ingress.yaml
+timeout: 60
+notification: {}
